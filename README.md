@@ -1,4 +1,4 @@
-# Password Cracking with Jack The Ripper and Network Walks Tools
+# Week 3: Password Cracking with Jack The Ripper and Network Walks Tools
 
 
 ---
