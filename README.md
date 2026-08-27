@@ -1,5 +1,5 @@
-# Password-Cracking
-# W3-PM1: Password Cracking with JTR ; W3-PM2: Password Cracking with NetworkWalks Tools
+# Password-Cracking with Jack The Ripper and Network Walks Tools
+
 
 ---
 ## 👤 Author
