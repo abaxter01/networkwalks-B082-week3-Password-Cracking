@@ -265,8 +265,38 @@ Successfully opening the document confirmed completion of the lab exercise.
 |Beginner friendliness | Moderate |	Beginner-friendly |
 
 ---
+## ⚖️ Problem and Solution
 
+- **Exhausted Wordlist**
 
+During the password cracking stage with Networkwalks Password Cracker tool. The built-in wordlist did not contain the password for the hash value. Therefore I had to upload a different wordlist `JTR_default_password.txt`, which contains 3546 possible passwords. This wordlist succeeded in cracking the password.
+
+<img width="1184" height="504" alt="image" src="https://github.com/user-attachments/assets/417314c8-4b0d-4423-928b-d2b0aa84d4f0" />
+
+---
+## 🛡️ Key Security Lessons
+
+This project highlighted several important cybersecurity lessons.
+
+**1. Weak passwords create security risks**
+
+Passwords that are short, common, or predictable may be easier to guess or recover.
+
+**2. Password complexity matters**
+
+Password strength can influence the amount of effort required to successfully test possible password candidates.
+
+**3. Passwords should not be stored in plain text**
+
+Modern systems should use appropriate password-hashing methods. OWASP recommends modern password-hashing approaches such as Argon2id, bcrypt, or PBKDF2.
+
+**4. Hashing and encryption are different**
+
+Hashing is generally intended as a one-way process, while encryption is designed to allow protected information to be recovered using the appropriate key.
+
+**5. Password testing must be authorized**
+
+Password cracking tools are legitimate cybersecurity tools when used within an authorized scope. Testing files or systems without permission may be unethical and unlawful
 
 
 
