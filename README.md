@@ -1,4 +1,4 @@
-# Week 3: Password Cracking with Jack The Ripper and Network Walks Tools
+# Week 3: Password Cracking with Jack The Ripper and Networkwalks Tools
 
 ## 📌 Introduction
 
@@ -68,7 +68,7 @@ A simple representation is:
 
 Readable Data ➔ Encryption ➔ Protected Data ➔ Decryption Key ➔ Readable Data
 
-Network Walks training material describes encryption as a two-way function, while hashing is described as a one-way function.
+Networkwalks training material describes encryption as a two-way function, while hashing is described as a one-way function.
 
 OWASP similarly distinguishes encryption from hashing: encrypted data is intended to be recoverable with the appropriate key, while hashing is generally used for one-way password verification.
 
@@ -113,7 +113,7 @@ The Networkwalks Password Cracker was then used to process the extracted hash an
     https://networkwalks.com/password-cracker/
 
 ---
-## 🧪 Lab 1: Password Cracking with John the Ripper and Johnny**
+## 🧪 Lab 1: Password Cracking with John the Ripper and Johnny
 
 #### 🎯 Objective
 
@@ -163,6 +163,7 @@ Open the hash website (https://www.onlinehashcrack.com/tools-pdf-hash-extractor.
 
 <img width="894" height="411" alt="image" src="https://github.com/user-attachments/assets/6bf819b5-a04f-4189-80d5-300c4618f302" />
 
+<br> 
 
 > ⚠️ Do not publicly upload sensitive or confidential documents to third-party services. This lab should only use the authorized training file provided for the exercise.
 
@@ -199,6 +200,45 @@ After the password was recovered in the authorized lab environment, it was used 
 <img width="1077" height="639" alt="image" src="https://github.com/user-attachments/assets/14b0ae03-615d-49dd-86e1-c8d7ad0063da" />
 
 ---
+## 🧪🧪 Lab 2: Password Cracking with Networkwalks Tools
+
+#### 🎯 Objective
+
+The second exercise used two browser-based tools created by Networkwalks:
+
+1. Networkwalks Hash Calculator
+2. Networkwalks Password Cracker
+
+This approach demonstrated the same general password recovery concept using a web-based workflow rather than the JTR/Johnny application workflow.
+
+---
+### Step 1: Open the Hash Calculator
+
+Open the Networkwalks Hash Calculator in a web browser.
+
+        https://networkwalks.com/hash-calculator/
+
+Upload the locked PDF file **My LockedPDF1** to the Hash Calculator. The tool is used to process the protected PDF and obtain the relevant hash information.
+
+<img width="1176" height="673" alt="image" src="https://github.com/user-attachments/assets/195941d0-1347-4488-8a22-4a384317f5a8" />
+
+### Step 2: Copy the Complete Hash
+
+Copy the entire hash value produced by the tool.
+
+No portion of the hash should be omitted.
+
+### Step 3: Open the Networkwalks Password Cracker
+
+Open the Networkwalks Password Cracker in a web browser.
+
+        https://networkwalks.com/password-cracker/
+
+<img width="1161" height="618" alt="image" src="https://github.com/user-attachments/assets/a284f2f4-bf7f-4465-a521-f49d4b28dc67" />
+
+### Step 6: Submit the Hash
+
+Paste the extracted hash into the Password Cracker and begin the password recovery process.
 
 
 
