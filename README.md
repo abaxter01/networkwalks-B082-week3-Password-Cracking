@@ -236,9 +236,36 @@ Open the Networkwalks Password Cracker in a web browser.
 
 <img width="1161" height="618" alt="image" src="https://github.com/user-attachments/assets/a284f2f4-bf7f-4465-a521-f49d4b28dc67" />
 
-### Step 6: Submit the Hash
+### Step 4: Submit the Hash
 
-Paste the extracted hash into the Password Cracker and begin the password recovery process.
+- Paste the extracted hash into the Password Cracker.
+- You can either use the built-in wordlist provided by Networkwalks or you can upload your own wordlist.
+- After selecting desired wordlist begin the password recovery process.
+- Wait for the process to complete. The recovery process may take different amounts of time depending on the complexity of the password being tested.
+- Once completed, the recovered password is displayed by the tool.
+
+<img width="1149" height="668" alt="image" src="https://github.com/user-attachments/assets/bf47fa8c-8853-4b87-abfe-4cea9dc12942" />
+
+### Step 5: Verify Access to the PDF
+
+Successfully opening the document confirmed completion of the lab exercise.
+
+<img width="1077" height="639" alt="image" src="https://github.com/user-attachments/assets/866cc86b-b72d-476e-9f8a-a6a9a01c09ef" />
+
+---
+
+## 🔄 Comparing the Two Approaches
+
+|Feature   | JTR + Johnny |	Networkwalks Tools|
+|----------|--------------|-------------------|
+|Environment |	Desktop application | Web browser|
+|Interface	| Command-line tool with GUI option| Browser-based |
+|Hash handling | Hash saved to a text file| Hash copied into web tool |
+|Main purpose |	Password security testing |	Password security testing |
+|Beginner friendliness | Moderate |	Beginner-friendly |
+
+---
+
 
 
 
